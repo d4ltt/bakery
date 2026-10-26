@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Bakery of Healthy Bread</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-box">EB</span>
+                <span>EcoBread</span>
+            </a>
+            <nav class="desktop-menu">
+                <a href="#assortment">Our Bread</a>
+                <a href="#recipes">Recipes</a>
+                <a href="#points">Points of Sale</a>
+                <a href="#delivery">Contacts</a>
+            </nav>
+            <div class="desktop-cta">
+                <a href="#delivery" class="cta-btn-header">Order Delivery</a>
+            </div>
+            <button id="burger-btn" aria-label="Toggle Menu" class="burger-btn">
+                <svg class="burger-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
+        </div>
+        <nav id="mobile-menu" class="mobile-menu hidden">
+            <a href="#assortment" class="mobile-link">Our Bread</a>
+            <a href="#recipes" class="mobile-link">Recipes</a>
+            <a href="#points" class="mobile-link">Points of Sale</a>
+            <a href="#delivery" class="mobile-link">Contacts</a>
+            <a href="#delivery" class="mobile-link mobile-cta">Order Delivery</a>
+        </nav>
+    </header>
+    <main class="main-content">
+        <section class="hero-section">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <span class="hero-badge">100% Natural Sourdough</span>
+                    <h1 class="hero-title">Bread on Sourdough without Yeast and Chemistry</h1>
+                    <p class="hero-desc">Handcrafted bread fermented for 24 hours. Made with pure spring water, organic flour, and zero chemical additives.</p>
+                    <div class="hero-cta-wrap">
+                        <a href="#assortment" class="thumb-btn hero-btn">View Catalog</a>
+                    </div>
+                </div>
+                <div class="hero-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80" alt="Freshly baked artisan bread" class="hero-img">
+                </div>
+            </div>
+        </section>
+        <section id="assortment" class="grid-section">
+            <div class="section-header">
+                <h2>Bakery Assortment</h2>
+                <p>Ingredients, energy metrics, and certified gluten-free positions.</p>
+            </div>
+            <div class="product-grid">
+                <article class="product-card">
+                    <div>
+                        <div class="card-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=400&q=80" alt="Borodinsky Bread" class="card-img">
+                            <span class="card-badge rye">100% Rye</span>
+                        </div>
+                        <h3>Borodinsky Rye</h3>
+                        <p class="card-ingredients">Rye flour, fermented malt, coriander, spring water, sea salt.</p>
+                        <div class="macros-grid">
+                            <div><span class="macro-val">210</span>kcal</div>
+                            <div><span class="macro-val">6.8g</span>Prot</div>
+                            <div><span class="macro-val">41g</span>Carbs</div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="price-tag">$2.50</span>
+                        <a href="#delivery" class="card-select-btn">Select</a>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div>
+                        <div class="card-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=400&q=80" alt="Green Buckwheat Bread" class="card-img">
+                            <span class="card-badge gf">Gluten-Free</span>
+                        </div>
+                        <h3>Green Buckwheat</h3>
+                        <p class="card-ingredients">Green buckwheat flour, psyllium husk, pumpkin seeds, salt.</p>
+                        <div class="macros-grid">
+                            <div><span class="macro-val">185</span>kcal</div>
+                            <div><span class="macro-val">7.2g</span>Prot</div>
+                            <div><span class="macro-val">34g</span>Carbs</div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="price-tag">$3.20</span>
+                        <a href="#delivery" class="card-select-btn">Select</a>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div>
+                        <div class="card-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=400&q=80" alt="Tartine Bread" class="card-img">
+                            <span class="card-badge french">French Style</span>
+                        </div>
+                        <h3>Country Tartine</h3>
+                        <p class="card-ingredients">Whole wheat flour, wild sourdough starter, water, sea salt.</p>
+                        <div class="macros-grid">
+                            <div><span class="macro-val">225</span>kcal</div>
+                            <div><span class="macro-val">8.1g</span>Prot</div>
+                            <div><span class="macro-val">45g</span>Carbs</div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="price-tag">$2.90</span>
+                        <a href="#delivery" class="card-select-btn">Select</a>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div>
+                        <div class="card-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=400&q=80" alt="Flaxseed Keto Bread" class="card-img">
+                            <span class="card-badge gf">Gluten-Free</span>
+                        </div>
+                        <h3>Flaxseed Keto</h3>
+                        <p class="card-ingredients">Golden flaxseed meal, sunflower seeds, sesame, clean water.</p>
+                        <div class="macros-grid">
+                            <div><span class="macro-val">260</span>kcal</div>
+                            <div><span class="macro-val">11.0g</span>Prot</div>
+                            <div><span class="macro-val">6.0g</span>Carbs</div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="price-tag">$3.80</span>
+                        <a href="#delivery" class="card-select-btn">Select</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="delivery" class="form-section">
+            <div class="form-wrapper">
+                <div class="form-box">
+                    <h2>Morning Delivery Subscription</h2>
+                    <p class="form-sub">Fill out the form to set up regular morning bread delivery.</p>
+                    <form id="delivery-form" onsubmit="event.preventDefault(); handleFormSubmit();">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Daulet Makhambetov" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="daulet@example.com" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="+7 707 000 0000" pattern="[0-9\+\-\s\(\)]{10,20}" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Delivery Address *</label>
+                            <input type="text" id="address" name="address" required placeholder="150 Abai Avenue, Almaty" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label for="frequency">Frequency *</label>
+                            <select id="frequency" name="frequency" required class="form-input">
+                                <option value="" disabled selected>Select frequency</option>
+                                <option value="daily">Daily (by 7:30 AM)</option>
+                                <option value="workdays">Weekdays (Mon-Fri)</option>
+                                <option value="weekends">Weekends (Sat-Sun)</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="thumb-btn submit-btn">Subscribe Now</button>
+                    </form>
+                    <div id="form-success" class="success-alert hidden">
+                        Subscription requested successfully! We will contact you shortly.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div>
+                <h3 class="footer-title">Navigation</h3>
+                <ul class="footer-links">
+                    <li><a href="#assortment">Our Bread Assortment</a></li>
+                    <li><a href="#recipes">Sourdough Standards</a></li>
+                    <li><a href="#points">Points of Sale</a></li>
+                    <li><a href="#delivery">Delivery Terms</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-title">Raw Material Compliance</h3>
+                <p class="footer-text">All bakery products satisfy standards. Baked exclusively with certified organic flour.</p>
+                <span class="cert-tag">EAEU Cert</span>
+            </div>
+            <div class="footer-theme-wrap">
+                <div>
+                    <h3 class="footer-title">Theme Inversion</h3>
+                    <div class="theme-switcher">
+                        <button id="theme-light-btn" onclick="setTheme('light')" class="theme-tab active-tab">Light Mode</button>
+                        <button id="theme-dark-btn" onclick="setTheme('dark')" class="theme-tab">Dark Mode</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Private Bakery of Healthy Bread. All rights reserved.</p>
+            <p class="student-sign">Student: Makhambetov Daulet</p>
+        </div>
+    </footer>
+    <script>
+        const burgerBtn = document.getElementById('burger-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        burgerBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        document.querySelectorAll('.mobile-link').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+        function setTheme(mode) {
+            const html = document.documentElement;
+            const lightBtn = document.getElementById('theme-light-btn');
+            const darkBtn = document.getElementById('theme-dark-btn');
+            if (mode === 'dark') {
+                html.className = 'dark';
+                darkBtn.className = 'theme-tab active-tab';
+                lightBtn.className = 'theme-tab';
+            } else {
+                html.className = 'light';
+                lightBtn.className = 'theme-tab active-tab';
+                darkBtn.className = 'theme-tab';
+            }
+        }
+        function handleFormSubmit() {
+            const form = document.getElementById('delivery-form');
+            const successBox = document.getElementById('form-success');
+            successBox.classList.remove('hidden');
+            form.reset();
+            setTimeout(() => {
+                successBox.classList.add('hidden');
+            }, 5000);
+        }
+    </script>
+</body>
+</html>
